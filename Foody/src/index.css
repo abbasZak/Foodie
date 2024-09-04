@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #f6f6f6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#secondPart{
+    background-image: url('images/breakfast.jpg');
+    background-size: cover;
+
+}
+
+#logoutDiv{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: none;
+}
+
+#logList{
+    position: relative;
+}
+
+#logList:hover #logoutDiv{
+    display: block;
+    
+}
